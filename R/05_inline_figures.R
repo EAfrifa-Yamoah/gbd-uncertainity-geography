@@ -2,8 +2,8 @@
 # Move the figure environments from the end of main.tex to the paragraph where
 # each is first cited, and write main_inline.tex. Placement is [htbp] so LaTeX
 # sets each figure on or after the page of first mention.
-setwd("/home/claude/gbd_uncertainty/manuscript")
-x <- readLines("main.tex")
+if (!dir.exists("manuscript")) stop("run from the repository root: Rscript R/05_inline_figures.R")
+x <- readLines("manuscript/main.tex")
 start <- grep("^\\\\section\\*\\{Figures\\}", x)
 clear <- start - 1  # the \clearpage before the Figures section
 end_doc <- grep("^\\\\end\\{document\\}", x)
@@ -26,5 +26,5 @@ for (i in order(first_cite, seq_along(figs), decreasing = TRUE)) {
   out <- append(out, c("", figs[[i]]), after = k - 1)
 }
 out <- c(out, "", "\\end{document}")
-writeLines(out, "main_inline.tex")
+writeLines(out, "manuscript/main_inline.tex")
 cat("figures inlined:", paste(labels, collapse = ", "), "\n")

@@ -2,9 +2,13 @@
 # Harvest saved GBD connector tool results (JSON {result: "<csv>"}) into
 # data/raw/, naming each file from its own content so that parallel tool
 # calls cannot be mislabelled. Files already harvested are renamed *.harvested.
+# Usage, from the repository root:
+#   Rscript R/00_harvest.R <folder of saved tool results> [output folder, default data/raw]
 suppressPackageStartupMessages({library(jsonlite)})
-dir_in  <- "/root/.claude/projects/-home-claude/4a32cf05-c4a9-5296-84b9-e2caa28798ef/tool-results"
-dir_out <- "/home/claude/gbd_uncertainty/data/raw"
+args <- commandArgs(trailingOnly = TRUE)
+if (length(args) < 1) stop("usage: Rscript R/00_harvest.R <tool results folder> [output folder]")
+dir_in  <- args[1]
+dir_out <- if (length(args) >= 2) args[2] else "data/raw"
 files <- list.files(dir_in, pattern = "^mcp-GBD_2023_Collab-.*\\.txt$", full.names = TRUE)
 slug <- function(x) gsub("[^A-Za-z0-9]+", "_", tolower(x))
 for (f in files) {

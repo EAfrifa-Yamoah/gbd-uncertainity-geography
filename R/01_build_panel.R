@@ -7,7 +7,7 @@
 #   asym  = (upper - point) / (point - lower) asymmetry (> 1: right skewed)
 # Only the combined sex, age standardised series is used for the main panels.
 suppressPackageStartupMessages({library(dplyr); library(readr); library(tidyr); library(purrr); library(stringr)})
-setwd("/home/claude/gbd_uncertainty")
+if (!dir.exists("data/raw")) stop("run from the repository root: Rscript R/01_build_panel.R")
 raw <- "data/raw"
 files <- list.files(raw, full.names = TRUE)
 

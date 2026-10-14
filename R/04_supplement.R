@@ -2,7 +2,7 @@
 # Supplementary analyses and LaTeX tables for the manuscript. Every table in
 # the main text and supplement is written here from the data; nothing is typed.
 suppressPackageStartupMessages({library(dplyr); library(tidyr); library(readr); library(mgcv)})
-setwd("/home/claude/gbd_uncertainty")
+if (!dir.exists("data/raw")) stop("run from the repository root: Rscript R/04_supplement.R")
 P <- readRDS("data/panel/panels.rds"); cc <- P$country_cause; cv <- P$covars
 dir.create("manuscript/tables", showWarnings = FALSE, recursive = TRUE)
 sink("output/stats_supplement.txt", split = TRUE)

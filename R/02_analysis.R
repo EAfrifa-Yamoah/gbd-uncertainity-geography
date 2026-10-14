@@ -7,7 +7,7 @@ suppressPackageStartupMessages({
   library(dplyr); library(tidyr); library(readr); library(ggplot2); library(scales)
   library(mgcv); library(patchwork); library(sf); library(quantreg); library(broom)
 })
-setwd("/home/claude/gbd_uncertainty")
+if (!dir.exists("data/raw")) stop("run from the repository root: Rscript R/02_analysis.R")
 P <- readRDS("data/panel/panels.rds")
 cc <- P$country_cause; cv <- P$covars; sev <- P$country_sev; rd <- P$country_riskdaly
 ad <- P$admin1_daly; as <- P$admin1_sev
