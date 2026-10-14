@@ -40,7 +40,7 @@ R/02_analysis.R        every statistic in the paper (output/stats.txt) and the f
 R/04_supplement.R      every table in the main text and supplement, written to manuscript/tables
 R/05_inline_figures.R  derives manuscript/main_inline.tex from main.tex
 R/decompose_ui.R       the decomposition function
-data/raw/              134 verbatim CSV extracts from the IHME GBD 2023 Collab connector, 14 October 2026
+data/raw/              141 verbatim CSV extracts from the IHME GBD 2023 Collab connector, 14 October 2026
 data/panel/            derived panels (CSV)
 figures/               eight figures, 300 dpi, colour blind safe palettes
 output/                stats.txt, stats_supplement.txt, summary CSVs
