@@ -1,0 +1,205 @@
+covariate_name,covariate_id,location_name,location_id,year,age_group,unit,value_combined,lower_combined,upper_combined
+Healthcare access and quality index,1099,Afghanistan,160,2023,All Ages,index (0-100),30.4319570925533,27.0925987895099,33.461162226709
+Healthcare access and quality index,1099,Albania,43,2023,All Ages,index (0-100),69.6127712959555,66.5073981735482,72.9043862683476
+Healthcare access and quality index,1099,Algeria,139,2023,All Ages,index (0-100),63.2606249219352,60.3319877827453,66.989152124889
+Healthcare access and quality index,1099,American Samoa,298,2023,All Ages,index (0-100),41.914313580541,38.6034215403519,45.9558794595792
+Healthcare access and quality index,1099,Andorra,74,2023,All Ages,index (0-100),92.5469880412963,91.0240695698805,94.0359390808701
+Healthcare access and quality index,1099,Angola,168,2023,All Ages,index (0-100),28.6321762394774,25.5687863062128,31.6076108772791
+Healthcare access and quality index,1099,Antigua and Barbuda,105,2023,All Ages,index (0-100),57.1949861227463,54.1746352762223,61.0211264152524
+Healthcare access and quality index,1099,Argentina,97,2023,All Ages,index (0-100),60.4423260974392,57.4451419882856,64.2936690823521
+Healthcare access and quality index,1099,Armenia,33,2023,All Ages,index (0-100),62.0630478457901,59.0657957745164,65.9090537703105
+Healthcare access and quality index,1099,Australia,71,2023,All Ages,index (0-100),92.5170522487828,90.954387702702,93.8117020279801
+Healthcare access and quality index,1099,Austria,75,2023,All Ages,index (0-100),88.6059738076353,86.8940758247596,90.270176462363
+Healthcare access and quality index,1099,Azerbaijan,34,2023,All Ages,index (0-100),51.1143401968187,47.8272063958381,55.2084511728727
+Healthcare access and quality index,1099,Bahamas,106,2023,All Ages,index (0-100),51.8659459555558,48.6636320598193,55.6810982613679
+Healthcare access and quality index,1099,Bahrain,140,2023,All Ages,index (0-100),68.9341751054103,65.7378808645984,72.1167646664746
+Healthcare access and quality index,1099,Bangladesh,161,2023,All Ages,index (0-100),45.0963260939464,41.216216927304,48.3104685011319
+Healthcare access and quality index,1099,Barbados,107,2023,All Ages,index (0-100),59.6246108616902,56.4760864589285,63.3231379755197
+Healthcare access and quality index,1099,Belarus,57,2023,All Ages,index (0-100),73.3153804934855,70.4506815042514,76.4816624206432
+Healthcare access and quality index,1099,Belgium,76,2023,All Ages,index (0-100),86.7985320033492,84.6641171100915,88.4722119146489
+Healthcare access and quality index,1099,Belize,108,2023,All Ages,index (0-100),49.9337685039842,46.4403640415855,54.2305537014887
+Healthcare access and quality index,1099,Benin,200,2023,All Ages,index (0-100),31.4187053088068,28.4167223514492,34.6924082853414
+Healthcare access and quality index,1099,Bermuda,305,2023,All Ages,index (0-100),78.5077196868197,75.8164907813335,81.1666438775577
+Healthcare access and quality index,1099,Bhutan,162,2023,All Ages,index (0-100),41.5064188632942,37.5144130684197,44.7689456870908
+Healthcare access and quality index,1099,Bolivia (Plurinational State of),121,2023,All Ages,index (0-100),39.719844867184,35.7922035060175,42.9414169794675
+Healthcare access and quality index,1099,Bosnia and Herzegovina,44,2023,All Ages,index (0-100),67.1043269878508,63.6749092216013,70.2953867022382
+Healthcare access and quality index,1099,Botswana,193,2023,All Ages,index (0-100),38.4376957043566,34.6612733326055,41.8224868345576
+Healthcare access and quality index,1099,Brazil,135,2023,All Ages,index (0-100),52.2236826014385,48.8995961899139,56.3360233838534
+Healthcare access and quality index,1099,Brunei Darussalam,66,2023,All Ages,index (0-100),55.8889406834717,52.8061302813721,59.8823580440173
+Healthcare access and quality index,1099,Bulgaria,45,2023,All Ages,index (0-100),63.2558258092177,59.4569689113138,66.1844723940878
+Healthcare access and quality index,1099,Burkina Faso,201,2023,All Ages,index (0-100),28.0373921727607,24.5634083407743,30.9841289764907
+Healthcare access and quality index,1099,Burundi,175,2023,All Ages,index (0-100),24.4574870343379,21.8335213513382,27.6155809528748
+Healthcare access and quality index,1099,Cabo Verde,203,2023,All Ages,index (0-100),48.6788342901188,44.4581589851262,52.1577914050777
+Healthcare access and quality index,1099,Cambodia,10,2023,All Ages,index (0-100),35.6951316292307,32.0678566491426,38.8687784160155
+Healthcare access and quality index,1099,Cameroon,202,2023,All Ages,index (0-100),31.6783841227403,28.2314847895318,34.7822434604449
+Healthcare access and quality index,1099,Canada,101,2023,All Ages,index (0-100),88.1054417686211,86.3509426703608,89.8306038464102
+Healthcare access and quality index,1099,Central African Republic,169,2023,All Ages,index (0-100),16.2691780413859,14.0826377363364,18.42339307487
+Healthcare access and quality index,1099,Chad,204,2023,All Ages,index (0-100),21.7758308221982,19.1511672047332,24.2648946249865
+Healthcare access and quality index,1099,Chile,98,2023,All Ages,index (0-100),70.2539302114983,66.9772967620195,73.2675531159076
+Healthcare access and quality index,1099,China,6,2023,All Ages,index (0-100),70.3375595328152,67.2059859714703,73.4505534520502
+Healthcare access and quality index,1099,Colombia,125,2023,All Ages,index (0-100),62.299342705277,59.3376431782652,65.9865657424636
+Healthcare access and quality index,1099,Comoros,176,2023,All Ages,index (0-100),30.0291399954304,26.6887668633463,32.9330867753485
+Healthcare access and quality index,1099,Congo,170,2023,All Ages,index (0-100),30.7407367038868,27.3390005685475,33.8044302941084
+Healthcare access and quality index,1099,Cook Islands,320,2023,All Ages,index (0-100),61.8770251344476,58.9592470113255,65.7282496271339
+Healthcare access and quality index,1099,Costa Rica,126,2023,All Ages,index (0-100),66.9879073777816,63.6564648336614,70.2176691264767
+Healthcare access and quality index,1099,Côte d'Ivoire,205,2023,All Ages,index (0-100),31.0804360082276,27.6374250089292,34.1691058574176
+Healthcare access and quality index,1099,Croatia,46,2023,All Ages,index (0-100),77.7695662754358,75.2589714176897,80.6380071962698
+Healthcare access and quality index,1099,Cuba,109,2023,All Ages,index (0-100),65.1816345470138,62.1960420292025,68.7535971281637
+Healthcare access and quality index,1099,Cyprus,77,2023,All Ages,index (0-100),86.8070440396912,84.3320509960332,88.6015148250952
+Healthcare access and quality index,1099,Czechia,47,2023,All Ages,index (0-100),77.3217739720382,74.7124659346436,80.0626594584804
+Healthcare access and quality index,1099,Democratic People's Republic of Korea,7,2023,All Ages,index (0-100),53.7804996648465,50.7040096903098,57.8136758558857
+Healthcare access and quality index,1099,Democratic Republic of the Congo,171,2023,All Ages,index (0-100),28.3161745394311,25.2434830286603,31.1311700181737
+Healthcare access and quality index,1099,Denmark,78,2023,All Ages,index (0-100),86.5607948853441,84.4547479960609,88.40504483238
+Healthcare access and quality index,1099,Djibouti,177,2023,All Ages,index (0-100),31.0301912794246,27.57566349848,34.054880999964
+Healthcare access and quality index,1099,Dominica,110,2023,All Ages,index (0-100),45.2006500270584,41.9040610615372,49.3448235483603
+Healthcare access and quality index,1099,Dominican Republic,111,2023,All Ages,index (0-100),44.4037907392476,41.1358989666557,48.5192630437259
+Healthcare access and quality index,1099,Ecuador,122,2023,All Ages,index (0-100),52.9238210597869,49.4112599378379,57.0397627810848
+Healthcare access and quality index,1099,Egypt,141,2023,All Ages,index (0-100),55.3022530265725,50.977867077512,58.6813237303939
+Healthcare access and quality index,1099,El Salvador,127,2023,All Ages,index (0-100),54.186889774676,50.7737881155781,58.2302301591408
+Healthcare access and quality index,1099,Equatorial Guinea,172,2023,All Ages,index (0-100),38.4943948205976,34.7318391090879,41.7411652574004
+Healthcare access and quality index,1099,Eritrea,178,2023,All Ages,index (0-100),23.5328329492803,21.049025470948,26.466740523639
+Healthcare access and quality index,1099,Estonia,58,2023,All Ages,index (0-100),76.8329234709885,74.1979385690146,79.6795638423079
+Healthcare access and quality index,1099,Eswatini,197,2023,All Ages,index (0-100),27.9464946981821,24.7039651985356,30.7027449561304
+Healthcare access and quality index,1099,Ethiopia,179,2023,All Ages,index (0-100),31.6766683002218,28.6117129988833,35.265423957943
+Healthcare access and quality index,1099,Fiji,22,2023,All Ages,index (0-100),37.356587269683,33.8309001046908,40.4197549448367
+Healthcare access and quality index,1099,Finland,79,2023,All Ages,index (0-100),88.3137723955476,86.2930744344789,89.813749511538
+Healthcare access and quality index,1099,France,80,2023,All Ages,index (0-100),90.8861625424113,88.8826854792963,92.611687214765
+Healthcare access and quality index,1099,Gabon,173,2023,All Ages,index (0-100),37.0137934808127,33.1993817810348,40.2794214665334
+Healthcare access and quality index,1099,Gambia,206,2023,All Ages,index (0-100),30.014867119636,26.5764795150298,33.0320256221078
+Healthcare access and quality index,1099,Georgia,35,2023,All Ages,index (0-100),56.6073542424216,53.4452129097569,60.5260439233643
+Healthcare access and quality index,1099,Germany,81,2023,All Ages,index (0-100),86.120837723891,84.1290582815023,88.1332817168873
+Healthcare access and quality index,1099,Ghana,207,2023,All Ages,index (0-100),33.9132579129668,30.8533563700703,37.4450943243913
+Healthcare access and quality index,1099,Greece,82,2023,All Ages,index (0-100),83.8707413382678,81.4205726664,85.8939310000107
+Healthcare access and quality index,1099,Greenland,349,2023,All Ages,index (0-100),61.4563573357433,58.4416783344328,65.2418198231285
+Healthcare access and quality index,1099,Grenada,112,2023,All Ages,index (0-100),48.0309067112613,44.583621837637,52.2710031193438
+Healthcare access and quality index,1099,Guam,351,2023,All Ages,index (0-100),58.5585405182257,55.4045388590404,62.3693436736018
+Healthcare access and quality index,1099,Guatemala,128,2023,All Ages,index (0-100),45.7169086040781,41.5253069822481,49.1740113019395
+Healthcare access and quality index,1099,Guinea,208,2023,All Ages,index (0-100),25.5410401039319,22.649770577247,28.2136020150216
+Healthcare access and quality index,1099,Guinea-Bissau,209,2023,All Ages,index (0-100),20.4595165457181,17.8208177749999,22.982718058439
+Healthcare access and quality index,1099,Guyana,113,2023,All Ages,index (0-100),37.766656200875,33.8776025183,41.097915046359
+Healthcare access and quality index,1099,Haiti,114,2023,All Ages,index (0-100),24.5717429840455,21.7429153700891,27.2280228813099
+Healthcare access and quality index,1099,Honduras,129,2023,All Ages,index (0-100),39.1986562828657,35.5216333235241,42.2694239266431
+Healthcare access and quality index,1099,Hungary,48,2023,All Ages,index (0-100),71.3263471011784,68.4400290866083,74.5324149832832
+Healthcare access and quality index,1099,Iceland,83,2023,All Ages,index (0-100),92.7801407598589,91.0974070931663,94.0881170531699
+Healthcare access and quality index,1099,India,163,2023,All Ages,index (0-100),41.7174619392674,37.7593834777378,44.9016174264726
+Healthcare access and quality index,1099,Indonesia,11,2023,All Ages,index (0-100),39.0210426153574,35.0783392209051,42.2485242170428
+Healthcare access and quality index,1099,Iran (Islamic Republic of),142,2023,All Ages,index (0-100),70.9055425740619,67.7737972724111,73.8544025520317
+Healthcare access and quality index,1099,Iraq,143,2023,All Ages,index (0-100),62.0650350439868,59.0444526941523,65.7184918368167
+Healthcare access and quality index,1099,Ireland,84,2023,All Ages,index (0-100),92.2432365184956,90.5419625662109,93.8423008862032
+Healthcare access and quality index,1099,Israel,85,2023,All Ages,index (0-100),85.4006359726082,83.1231204476612,87.3217338574422
+Healthcare access and quality index,1099,Italy,86,2023,All Ages,index (0-100),90.1025416563128,88.5570202915641,91.5922481146272
+Healthcare access and quality index,1099,Jamaica,115,2023,All Ages,index (0-100),53.0010776418442,49.4813309798218,57.1939052095586
+Healthcare access and quality index,1099,Japan,67,2023,All Ages,index (0-100),88.8733853850781,87.2439933600275,90.5062057089168
+Healthcare access and quality index,1099,Jordan,144,2023,All Ages,index (0-100),69.0047819190297,65.3918684324973,71.6630263572453
+Healthcare access and quality index,1099,Kazakhstan,36,2023,All Ages,index (0-100),58.1877179276561,54.708549189129,62.1182677720634
+Healthcare access and quality index,1099,Kenya,180,2023,All Ages,index (0-100),33.3361368639703,30.2895316823353,36.8300474309293
+Healthcare access and quality index,1099,Kiribati,23,2023,All Ages,index (0-100),27.0076364354244,24.3346491881753,30.3134913651536
+Healthcare access and quality index,1099,Kuwait,145,2023,All Ages,index (0-100),83.2902527885798,80.8210505665488,85.3913489415382
+Healthcare access and quality index,1099,Kyrgyzstan,37,2023,All Ages,index (0-100),53.9026071684908,50.4703347260433,57.9730945903816
+Healthcare access and quality index,1099,Lao People's Democratic Republic,12,2023,All Ages,index (0-100),33.2701571971597,29.7636116312251,36.42414264776
+Healthcare access and quality index,1099,Latvia,59,2023,All Ages,index (0-100),67.5786895206466,64.6809394595308,71.0443467060615
+Healthcare access and quality index,1099,Lebanon,146,2023,All Ages,index (0-100),71.4779192746969,68.3026771250775,74.4173329793185
+Healthcare access and quality index,1099,Lesotho,194,2023,All Ages,index (0-100),23.2316547811787,20.4729237955552,25.8425076276126
+Healthcare access and quality index,1099,Liberia,210,2023,All Ages,index (0-100),31.4874563038383,28.1453917990947,34.3757068341761
+Healthcare access and quality index,1099,Libya,147,2023,All Ages,index (0-100),58.4170376340615,55.3956749453518,62.2148734136927
+Healthcare access and quality index,1099,Lithuania,60,2023,All Ages,index (0-100),69.3320615258821,66.1858754316296,72.9742482771768
+Healthcare access and quality index,1099,Luxembourg,87,2023,All Ages,index (0-100),89.7449530107192,87.8118945406076,91.6452529486036
+Healthcare access and quality index,1099,Madagascar,181,2023,All Ages,index (0-100),26.7784287681065,23.7991479845749,29.536342403867
+Healthcare access and quality index,1099,Malawi,182,2023,All Ages,index (0-100),26.8498374954187,23.8729606957214,29.5810871583091
+Healthcare access and quality index,1099,Malaysia,13,2023,All Ages,index (0-100),53.522986048075,50.2120590226176,57.6106434959915
+Healthcare access and quality index,1099,Maldives,14,2023,All Ages,index (0-100),62.1752759218611,58.4645215923349,65.2269430437331
+Healthcare access and quality index,1099,Mali,211,2023,All Ages,index (0-100),27.4886151698276,24.2644196939344,30.2977735881974
+Healthcare access and quality index,1099,Malta,88,2023,All Ages,index (0-100),86.813338426392,84.6059528965897,88.4435385834729
+Healthcare access and quality index,1099,Marshall Islands,24,2023,All Ages,index (0-100),32.8706925220958,29.2757553725024,36.1354204681764
+Healthcare access and quality index,1099,Mauritania,212,2023,All Ages,index (0-100),39.0527942065286,35.1361634723974,42.2684772993284
+Healthcare access and quality index,1099,Mauritius,183,2023,All Ages,index (0-100),55.8992188504024,52.7143573887781,59.691913086968
+Healthcare access and quality index,1099,Mexico,130,2023,All Ages,index (0-100),52.3898750908619,49.2385459918885,56.4284071459947
+Healthcare access and quality index,1099,Micronesia (Federated States of),25,2023,All Ages,index (0-100),33.8133551201328,30.2750711282415,36.9677034319454
+Healthcare access and quality index,1099,Monaco,367,2023,All Ages,index (0-100),87.6787384090346,85.6322408748905,89.3550095093902
+Healthcare access and quality index,1099,Mongolia,38,2023,All Ages,index (0-100),46.9894053053508,43.1283823165219,50.4358139250858
+Healthcare access and quality index,1099,Montenegro,50,2023,All Ages,index (0-100),74.6040560490226,71.5365454631868,77.1587616156144
+Healthcare access and quality index,1099,Morocco,148,2023,All Ages,index (0-100),52.1942222074061,48.9235964730404,56.2514626480788
+Healthcare access and quality index,1099,Mozambique,184,2023,All Ages,index (0-100),23.5895847953728,20.8151242874076,26.1993942729245
+Healthcare access and quality index,1099,Myanmar,15,2023,All Ages,index (0-100),34.9256414774774,31.3536884454919,38.1403983945239
+Healthcare access and quality index,1099,Namibia,195,2023,All Ages,index (0-100),34.5479996227991,31.075249360391,37.753058515865
+Healthcare access and quality index,1099,Nauru,369,2023,All Ages,index (0-100),32.6895930423556,29.6875475178247,36.1488474023048
+Healthcare access and quality index,1099,Nepal,164,2023,All Ages,index (0-100),36.9845736311427,33.3399127628263,40.2015239062781
+Healthcare access and quality index,1099,Netherlands,89,2023,All Ages,index (0-100),90.7039274701965,89.3040627203606,92.2861900980906
+Healthcare access and quality index,1099,New Zealand,72,2023,All Ages,index (0-100),85.7600205876578,83.5009860887908,87.5599434081569
+Healthcare access and quality index,1099,Nicaragua,131,2023,All Ages,index (0-100),56.120679319719,52.9397294359695,60.0546368485017
+Healthcare access and quality index,1099,Niger,213,2023,All Ages,index (0-100),26.9785390299751,23.8716442835074,29.6856405347539
+Healthcare access and quality index,1099,Nigeria,214,2023,All Ages,index (0-100),33.3558385101289,29.7554009369083,36.4598495476947
+Healthcare access and quality index,1099,Niue,374,2023,All Ages,index (0-100),39.2643654572764,35.9053754352886,43.2117563540588
+Healthcare access and quality index,1099,North Macedonia,49,2023,All Ages,index (0-100),66.7263991117962,62.9430474968779,69.4603025929639
+Healthcare access and quality index,1099,Northern Mariana Islands,376,2023,All Ages,index (0-100),54.5032734894596,51.433113113835,58.5242717265559
+Healthcare access and quality index,1099,Norway,90,2023,All Ages,index (0-100),92.2250957694055,90.3758792574087,93.7405720059941
+Healthcare access and quality index,1099,Oman,150,2023,All Ages,index (0-100),66.2437694956824,63.0185775056872,69.9984104653136
+Healthcare access and quality index,1099,Pakistan,165,2023,All Ages,index (0-100),34.5148773213491,30.9657523133996,37.8107972251472
+Healthcare access and quality index,1099,Palau,380,2023,All Ages,index (0-100),41.6555722965935,38.6311524119355,45.607615983962
+Healthcare access and quality index,1099,Palestine,149,2023,All Ages,index (0-100),63.1808787474216,60.2440035489413,66.9167902541529
+Healthcare access and quality index,1099,Panama,132,2023,All Ages,index (0-100),63.5164925350534,60.5699617494377,67.2480199560844
+Healthcare access and quality index,1099,Papua New Guinea,26,2023,All Ages,index (0-100),36.1242921074704,32.1925888373875,39.3872109120189
+Healthcare access and quality index,1099,Paraguay,136,2023,All Ages,index (0-100),46.7982251320565,43.5896022042358,50.763949567624
+Healthcare access and quality index,1099,Peru,123,2023,All Ages,index (0-100),56.4020098813391,52.9068895802244,60.4743046730197
+Healthcare access and quality index,1099,Philippines,16,2023,All Ages,index (0-100),40.468724617218,37.2251638635542,44.2813690665206
+Healthcare access and quality index,1099,Poland,51,2023,All Ages,index (0-100),68.4438756790842,64.9408120572834,71.2173213159
+Healthcare access and quality index,1099,Portugal,91,2023,All Ages,index (0-100),85.0714603918051,82.7093001773269,86.8940846062842
+Healthcare access and quality index,1099,Puerto Rico,385,2023,All Ages,index (0-100),71.3761515896755,68.1626363122923,74.1290026472332
+Healthcare access and quality index,1099,Qatar,151,2023,All Ages,index (0-100),79.4195574441203,77.0537054652395,82.0459420810404
+Healthcare access and quality index,1099,Republic of Korea,68,2023,All Ages,index (0-100),86.3050666021788,84.0626885083418,87.9992446903465
+Healthcare access and quality index,1099,Republic of Moldova,61,2023,All Ages,index (0-100),60.9507628385908,57.8269308775597,64.6962548435781
+Healthcare access and quality index,1099,Romania,52,2023,All Ages,index (0-100),66.1372533200583,62.3523665419574,68.9252288290808
+Healthcare access and quality index,1099,Russian Federation,62,2023,All Ages,index (0-100),68.8659796505725,65.7234724548762,72.2788974768753
+Healthcare access and quality index,1099,Rwanda,185,2023,All Ages,index (0-100),31.1195268788546,28.0498538000985,34.5789555367575
+Healthcare access and quality index,1099,Saint Kitts and Nevis,393,2023,All Ages,index (0-100),48.3158941382854,44.8053670256756,52.47679630814
+Healthcare access and quality index,1099,Saint Lucia,116,2023,All Ages,index (0-100),52.1848204976775,48.9871738916667,55.9900682014391
+Healthcare access and quality index,1099,Saint Vincent and the Grenadines,117,2023,All Ages,index (0-100),46.5966978965804,43.2067570533752,50.6803083908727
+Healthcare access and quality index,1099,Samoa,27,2023,All Ages,index (0-100),42.9745564217786,39.6499978602842,47.0115638984305
+Healthcare access and quality index,1099,San Marino,396,2023,All Ages,index (0-100),93.761439014382,92.430011774389,95.0571233884072
+Healthcare access and quality index,1099,Sao Tome and Principe,215,2023,All Ages,index (0-100),39.516075098867,35.4919157727601,42.8866792273216
+Healthcare access and quality index,1099,Saudi Arabia,152,2023,All Ages,index (0-100),66.2872649505114,63.486676174264,69.8550106770135
+Healthcare access and quality index,1099,Senegal,216,2023,All Ages,index (0-100),31.9818929995196,28.5047296557714,34.9792482699759
+Healthcare access and quality index,1099,Serbia,53,2023,All Ages,index (0-100),66.619351184357,62.8369580688896,69.3518479347874
+Healthcare access and quality index,1099,Seychelles,186,2023,All Ages,index (0-100),52.6472105417954,49.1880625577096,56.7570506042554
+Healthcare access and quality index,1099,Sierra Leone,217,2023,All Ages,index (0-100),29.2093641379131,25.8966148415221,32.1901715244388
+Healthcare access and quality index,1099,Singapore,69,2023,All Ages,index (0-100),85.1730428016931,83.0452817122604,87.2411603766383
+Healthcare access and quality index,1099,Slovakia,54,2023,All Ages,index (0-100),70.130978095134,66.8595313228996,73.2249841971188
+Healthcare access and quality index,1099,Slovenia,55,2023,All Ages,index (0-100),85.7654082759451,83.462677801047,87.5656484561451
+Healthcare access and quality index,1099,Solomon Islands,28,2023,All Ages,index (0-100),32.6974512443892,29.0787046305463,35.8182291028478
+Healthcare access and quality index,1099,Somalia,187,2023,All Ages,index (0-100),16.0702554748025,13.8940202504535,18.2139541505814
+Healthcare access and quality index,1099,South Africa,196,2023,All Ages,index (0-100),38.8262908240044,35.6030000285023,42.7188458077751
+Healthcare access and quality index,1099,South Sudan,435,2023,All Ages,index (0-100),20.9547089877728,18.2385168426331,23.3926031279318
+Healthcare access and quality index,1099,Spain,92,2023,All Ages,index (0-100),90.8360460570712,88.8677072445085,92.5268924758997
+Healthcare access and quality index,1099,Sri Lanka,17,2023,All Ages,index (0-100),61.5766954589841,58.2592597621993,65.3476975263755
+Healthcare access and quality index,1099,Sudan,522,2023,All Ages,index (0-100),48.5505204990814,45.2674369950572,52.7592343774196
+Healthcare access and quality index,1099,Suriname,118,2023,All Ages,index (0-100),40.7778461973473,37.1909773604594,44.0535840503705
+Healthcare access and quality index,1099,Sweden,93,2023,All Ages,index (0-100),92.6327506301144,91.0991370200367,94.0129903404061
+Healthcare access and quality index,1099,Switzerland,94,2023,All Ages,index (0-100),93.2871968576641,91.8171418927601,94.5319733331361
+Healthcare access and quality index,1099,Syrian Arab Republic,153,2023,All Ages,index (0-100),62.7154619733432,59.6413750402441,66.3922426632214
+Healthcare access and quality index,1099,Taiwan,8,2023,All Ages,index (0-100),79.809354810803,77.2819702678842,82.5336152857093
+Healthcare access and quality index,1099,Tajikistan,39,2023,All Ages,index (0-100),45.66154140777,42.4185044034712,49.7882981258836
+Healthcare access and quality index,1099,Thailand,18,2023,All Ages,index (0-100),61.1923056227598,58.2227335350372,65.0183984536628
+Healthcare access and quality index,1099,Timor-Leste,19,2023,All Ages,index (0-100),36.3938353574638,32.5349346346596,39.5759821375675
+Healthcare access and quality index,1099,Togo,218,2023,All Ages,index (0-100),29.6157892823454,26.255717612205,32.6191694223871
+Healthcare access and quality index,1099,Tokelau,413,2023,All Ages,index (0-100),37.0918096612086,33.2008631510206,40.424511347452
+Healthcare access and quality index,1099,Tonga,29,2023,All Ages,index (0-100),45.9346065147069,42.8354004170244,49.8903067710826
+Healthcare access and quality index,1099,Trinidad and Tobago,119,2023,All Ages,index (0-100),51.6873395035949,48.5544844365192,55.6911240376714
+Healthcare access and quality index,1099,Tunisia,154,2023,All Ages,index (0-100),68.9390165687187,65.2940754068286,71.5989473105344
+Healthcare access and quality index,1099,Türkiye,155,2023,All Ages,index (0-100),68.6307837425135,65.3870118720463,71.8173540439615
+Healthcare access and quality index,1099,Turkmenistan,40,2023,All Ages,index (0-100),44.7013922496263,41.2452537747239,48.8298655166932
+Healthcare access and quality index,1099,Tuvalu,416,2023,All Ages,index (0-100),35.6316074649427,32.0268889809349,38.8334696867205
+Healthcare access and quality index,1099,Uganda,190,2023,All Ages,index (0-100),33.9215738347053,30.801830473253,37.303430283256
+Healthcare access and quality index,1099,Ukraine,63,2023,All Ages,index (0-100),63.2802860056384,60.1751320545568,67.032736635678
+Healthcare access and quality index,1099,United Arab Emirates,156,2023,All Ages,index (0-100),60.9339075060236,57.3445727515728,64.5491788247471
+Healthcare access and quality index,1099,United Kingdom,95,2023,All Ages,index (0-100),86.3652945216958,84.3028810837361,88.1788176947275
+Healthcare access and quality index,1099,United Republic of Tanzania,189,2023,All Ages,index (0-100),31.1829253200987,27.7281629084924,34.1410866932613
+Healthcare access and quality index,1099,United States of America,102,2023,All Ages,index (0-100),78.3167983820166,75.215927818042,80.6897657248228
+Healthcare access and quality index,1099,United States Virgin Islands,422,2023,All Ages,index (0-100),61.8553681752838,58.7701120585382,65.4619849097869
+Healthcare access and quality index,1099,Uruguay,99,2023,All Ages,index (0-100),64.5266672616633,60.9090272754863,67.7807223914721
+Healthcare access and quality index,1099,Uzbekistan,41,2023,All Ages,index (0-100),51.4945882325169,48.1823457138193,55.6021345628647
+Healthcare access and quality index,1099,Vanuatu,30,2023,All Ages,index (0-100),31.1128197313157,28.2052305703016,34.5840070397734
+Healthcare access and quality index,1099,Venezuela (Bolivarian Republic of),133,2023,All Ages,index (0-100),49.50873073754,46.0365162897676,53.786294822108
+Healthcare access and quality index,1099,Viet Nam,20,2023,All Ages,index (0-100),58.2447063251934,55.1801200187886,62.1441239055011
+Healthcare access and quality index,1099,Yemen,157,2023,All Ages,index (0-100),42.8660988203168,39.6270084191415,47.0587081241112
+Healthcare access and quality index,1099,Zambia,191,2023,All Ages,index (0-100),29.1992800656487,26.0934320390412,32.2105064939182
+Healthcare access and quality index,1099,Zimbabwe,198,2023,All Ages,index (0-100),25.8244551221272,22.6204003000125,28.6188643083386

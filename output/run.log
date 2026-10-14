@@ -1,0 +1,473 @@
+GBD 2023 uncertainty width analysis, run 2026-10-14 12:44:52 
+
+== 1. All-cause 2023, relative UI width by measure (204 countries) ==
+  measure_f   n median    q25    q75     min   max p_gt_0.25 p_gt_0.5 med_asym
+1    Deaths 204 0.0813 0.0459 0.1123 0.00171 0.180      0.00    0.000     1.04
+2      YLLs 204 0.0691 0.0455 0.0924 0.00271 0.150      0.00    0.000     1.04
+3      YLDs 204 0.5348 0.5233 0.5469 0.48197 0.571      1.00    0.985     1.21
+4     DALYs 204 0.2017 0.1587 0.2494 0.10760 0.341      0.25    0.000     1.17
+
+Spearman correlation of rw across measures within country:
+       deaths  ylls  ylds dalys
+deaths   1.00  0.97  0.12 -0.38
+ylls     0.97  1.00  0.12 -0.38
+ylds     0.12  0.12  1.00 -0.20
+dalys   -0.38 -0.38 -0.20  1.00
+
+Widest and narrowest all-cause DALY intervals, 2023:
+   location_name super_region    sdi point lower upper     rw
+1    Switzerland  High income 0.9461 18190 15430 21634 0.3411
+2     Luxembourg  High income 0.8948 18743 15976 22042 0.3237
+3     San Marino  High income 0.8830 17952 15217 20968 0.3204
+4      Australia  High income 0.8529 20191 17229 23687 0.3199
+5        Ireland  High income 0.9069 19838 16951 23259 0.3180
+6         Sweden  High income 0.9109 18948 16229 22196 0.3149
+7      Singapore  High income 0.8700 15703 13440 18374 0.3142
+8         Israel  High income 0.8409 18858 16214 22087 0.3115
+9         Norway  High income 0.9169 19051 16338 22265 0.3111
+10         Malta  High income 0.8305 18920 16231 22065 0.3083
+11   Netherlands  High income 0.9084 20969 18035 24455 0.3062
+12      Portugal  High income 0.7865 20696 17816 24122 0.3047
+             location_name                       super_region    sdi point
+1          Solomon Islands Southeast Asia, East Asia, Oceania 0.4580 52656
+2              South Sudan                 Sub-Saharan Africa 0.3790 76555
+3               Madagascar                 Sub-Saharan Africa 0.3799 57014
+4                    Nauru Southeast Asia, East Asia, Oceania 0.6264 67798
+5                 Cameroon                 Sub-Saharan Africa 0.4870 59294
+6                    Niger                 Sub-Saharan Africa 0.2030 68254
+7                     Chad                 Sub-Saharan Africa 0.2393 71257
+8 Central African Republic                 Sub-Saharan Africa 0.2591 82432
+  lower upper     rw
+1 49761 56112 0.1206
+2 72412 81626 0.1204
+3 53666 60485 0.1196
+4 64324 72156 0.1155
+5 55941 62619 0.1126
+6 64359 71970 0.1115
+7 67532 75359 0.1099
+8 78316 87185 0.1076
+
+By super region, all-cause DALYs 2023:
+                                  super_region  n median_rw   q25   q75
+1                                  High income 36     0.297 0.284 0.309
+2 Central Europe, Eastern Europe, Central Asia 29     0.222 0.201 0.249
+3                  Latin America and Caribbean 33     0.220 0.196 0.237
+4                 North Africa and Middle East 21     0.214 0.190 0.254
+5                                   South Asia  5     0.180 0.177 0.187
+6           Southeast Asia, East Asia, Oceania 34     0.186 0.156 0.202
+7                           Sub-Saharan Africa 46     0.137 0.131 0.153
+
+By SDI quintile (GBD assignment), all-cause DALYs 2023:
+     sdi_quintile  n median_rw   q25   q75
+1         Low SDI 50     0.143 0.130 0.161
+2  Low-middle SDI 25     0.187 0.151 0.207
+3      Middle SDI 18     0.190 0.172 0.200
+4 High-middle SDI 23     0.220 0.190 0.248
+5        High SDI 88     0.252 0.219 0.294
+
+By super region, all-cause deaths 2023:
+                                  super_region  n median_rw    q25    q75
+1                                  High income 36    0.0244 0.0179 0.0539
+2 Central Europe, Eastern Europe, Central Asia 29    0.0580 0.0371 0.0878
+3                  Latin America and Caribbean 33    0.0743 0.0599 0.1188
+4                 North Africa and Middle East 21    0.1238 0.0799 0.1467
+5                                   South Asia  5    0.1334 0.1278 0.1335
+6           Southeast Asia, East Asia, Oceania 34    0.0744 0.0668 0.1321
+7                           Sub-Saharan Africa 46    0.1060 0.0956 0.1105
+
+== 1b. Composition test: all-cause DALYs 2023 ==
+YLD share of DALYs: median 0.365  range 0.172 0.636 
+Spearman rw(DALYs) ~ YLD share: 0.984 
+Spearman YLD share ~ SDI: 0.85 
+Share of DALY interval variance (half width squared) contributed by YLDs under independence: median 0.945  IQR 0.837 0.987 
+Observed DALY rw / predicted under independence: median 0.998  IQR 0.979 1.02 
+Observed DALY rw / predicted under perfect correlation: median 0.827 
+Implied YLL-YLD draw correlation: median -0.013  IQR -0.105 0.11 
+R2 log rw(DALYs): YLD share alone 0.967 | SDI alone 0.686 | both 0.967 (SDI coefficient given share: 0.008, p = 0.839)
+Spearman rw(YLDs) ~ SDI: -0.177 ; rw(YLLs) ~ SDI: -0.476 
+
+Countries not matched to map polygons (small islands expected): 1 
+Tokelau 
+
+== 2. Predictors of log relative width, all-cause 2023 ==
+
+dalys: deviance explained  SDI only 70.4% | region only 71.1% | SDI+pop 72.6% | SDI+pop+region 79.9% | HAQ+pop+region 86.2%
+  Spearman rw~SDI: 0.835  rw~HAQ: 0.913  rw~log pop: -0.065 
+  GAM (SDI+pop): rw at SDI 0.3 is 0.51 times rw at SDI 0.8 (median population)
+  GAM (SDI+pop): rw at population 1e6 is 0.96 times rw at 1e8 (median SDI)
+             edf   Ref.df         F    p-value
+s(sdi)  2.323301 2.926774 26.927329 0.00000000
+s(lpop) 2.011891 2.570600  2.074784 0.09793735
+
+deaths: deviance explained  SDI only 31.9% | region only 38.5% | SDI+pop 40.8% | SDI+pop+region 53.8% | HAQ+pop+region 51.1%
+  Spearman rw~SDI: -0.518  rw~HAQ: -0.474  rw~log pop: -0.061 
+  GAM (SDI+pop): rw at SDI 0.3 is 2.66 times rw at SDI 0.8 (median population)
+  GAM (SDI+pop): rw at population 1e6 is 1.58 times rw at 1e8 (median SDI)
+             edf   Ref.df         F      p-value
+s(sdi)  2.055597 2.603092  9.103932 5.170687e-05
+s(lpop) 2.935846 3.652952 13.049382 0.000000e+00
+
+ylds: deviance explained  SDI only 4.6% | region only 13.1% | SDI+pop 21.3% | SDI+pop+region 27.5% | HAQ+pop+region 27.9%
+  Spearman rw~SDI: -0.177  rw~HAQ: -0.275  rw~log pop: -0.35 
+  GAM (SDI+pop): rw at SDI 0.3 is 1.02 times rw at SDI 0.8 (median population)
+  GAM (SDI+pop): rw at population 1e6 is 1.02 times rw at 1e8 (median SDI)
+             edf   Ref.df         F   p-value
+s(sdi)  1.000407 1.000815  0.261855 0.6096476
+s(lpop) 1.000121 1.000242 38.093921 0.0000000
+
+== 3. Cause level DALYs 2023 (30 level 3 causes x 204 countries) ==
+cells: 6001  dropped (lower<=0): 119 
+Variance (SS) share of log rw: cause 53.6 % | country 17.7 % | residual 28.7 %
+(order reversed) country 18.9 % | cause 52.4 %
+
+Median rw by cause (DALYs 2023), with Spearman rw~SDI across countries:
+                                   cause_name cause_type   n median_rw   q25
+1     Alzheimer's disease and other dementias        NCD 204     1.711 1.619
+2                                     Malaria       CMNN  85     1.571 1.339
+3                     Dietary iron deficiency       CMNN 204     1.379 1.093
+4                                    COVID-19       CMNN 204     1.009 0.786
+5                           Anxiety disorders        NCD 204     0.847 0.802
+6                        Depressive disorders        NCD 204     0.778 0.727
+7                                      Asthma        NCD 204     0.724 0.677
+8                      Gynecological diseases        NCD 204     0.699 0.683
+9                          Headache disorders        NCD 204     0.683 0.675
+10            Other musculoskeletal disorders        NCD 204     0.660 0.631
+11                              Low back pain        NCD 204     0.641 0.634
+12         Age-related and other hearing loss        NCD 204     0.632 0.622
+13                 Hypertensive heart disease        NCD 204     0.621 0.278
+14                         Diarrheal diseases       CMNN 204     0.619 0.458
+15                                  Self-harm   Injuries 204     0.618 0.232
+16                     Interpersonal violence   Injuries 204     0.510 0.310
+17                              Road injuries   Injuries 204     0.507 0.279
+18                               Tuberculosis       CMNN 204     0.504 0.304
+19                                      Falls   Injuries 204     0.498 0.460
+20                                   HIV/AIDS       CMNN 204     0.493 0.353
+21                          Diabetes mellitus        NCD 204     0.469 0.400
+22 Cirrhosis and other chronic liver diseases        NCD 204     0.461 0.220
+23        Tracheal, bronchus, and lung cancer        NCD 204     0.460 0.218
+24      Chronic obstructive pulmonary disease        NCD 204     0.432 0.241
+25                   Congenital birth defects        NCD 204     0.426 0.329
+26                     Chronic kidney disease        NCD 204     0.414 0.266
+27               Lower respiratory infections       CMNN 204     0.401 0.230
+28                                     Stroke        NCD 204     0.375 0.208
+29                     Ischemic heart disease        NCD 204     0.305 0.172
+30                         Neonatal disorders       CMNN 204     0.276 0.218
+     q75 rho_sdi rho_rate
+1  1.827 -0.4854   0.0453
+2  2.282  0.0564  -0.1577
+3  1.783  0.5573  -0.5544
+4  1.245  0.1847  -0.7427
+5  0.881  0.0804  -0.2938
+6  0.824 -0.3716  -0.0972
+7  0.780  0.1099  -0.0410
+8  0.714  0.5201  -0.6238
+9  0.693 -0.0798   0.1328
+10 0.689  0.1000  -0.6174
+11 0.650 -0.0351  -0.0491
+12 0.641  0.6123  -0.3723
+13 0.911 -0.6957   0.4825
+14 0.798 -0.5276   0.5184
+15 0.742 -0.7105  -0.0524
+16 0.735 -0.6604   0.2706
+17 0.652 -0.7065   0.5673
+18 0.741 -0.6512   0.6124
+19 0.541  0.1754   0.3564
+20 0.796 -0.4816   0.1923
+21 0.518 -0.3039  -0.1889
+22 0.644 -0.6653   0.3315
+23 0.614 -0.7234  -0.4220
+24 0.608 -0.7841   0.3534
+25 0.656 -0.6805   0.4320
+26 0.544 -0.6246   0.4280
+27 0.533 -0.4936   0.4476
+28 0.520 -0.6106   0.5208
+29 0.533 -0.7266   0.0611
+30 0.316  0.3087  -0.5045
+
+Median rw by cause type:
+  cause_type median_rw    n
+1       CMNN     0.597 1513
+2   Injuries     0.508  816
+3        NCD     0.641 3672
+
+== 3b. Fatal versus nonfatal: deaths, DALYs, prevalence for the same cause and country ==
+causes with both deaths and DALYs: 22  cells: 4359 
+median ratio rw(deaths)/rw(DALYs): 1.09  share with deaths wider: 0.75 
+                                   cause_name med_ratio   n
+1                                    COVID-19       0.3 204
+2         Tracheal, bronchus, and lung cancer       1.0 204
+3                                   Self-harm       1.0 204
+4  Cirrhosis and other chronic liver diseases       1.0 204
+5                                    HIV/AIDS       1.0 204
+6                          Neonatal disorders       1.1 204
+7                               Road injuries       1.1 204
+8                  Hypertensive heart disease       1.1 204
+9                      Ischemic heart disease       1.1 204
+10                   Congenital birth defects       1.1 204
+11                                     Stroke       1.1 204
+12                     Chronic kidney disease       1.1 204
+13                               Tuberculosis       1.1 204
+14                                    Malaria       1.1  75
+15                     Interpersonal violence       1.1 204
+16                                      Falls       1.2 204
+17               Lower respiratory infections       1.2 204
+18                          Diabetes mellitus       1.2 204
+19                         Diarrheal diseases       1.2 204
+20      Chronic obstructive pulmonary disease       1.3 204
+21                                     Asthma       1.3 204
+22    Alzheimer's disease and other dementias       1.4 204
+
+causes with prevalence and DALYs: 8 
+                               cause_name med_rw_prev med_rw_daly   n
+1      Age-related and other hearing loss       0.086        0.63 204
+2 Alzheimer's disease and other dementias       0.291        1.71 204
+3                       Anxiety disorders       0.516        0.85 204
+4   Chronic obstructive pulmonary disease       0.250        0.43 204
+5                    Depressive disorders       0.367        0.78 204
+6                       Diabetes mellitus       0.175        0.47 204
+7                  Ischemic heart disease       0.303        0.30 204
+8                           Low back pain       0.240        0.64 204
+
+== 4. All-cause DALYs, relative width by year ==
+   year median_rw   q25   q75
+1  1990     0.151 0.111 0.176
+2  1995     0.153 0.113 0.186
+3  2000     0.161 0.119 0.197
+4  2005     0.169 0.126 0.205
+5  2010     0.179 0.136 0.216
+6  2015     0.186 0.141 0.230
+7  2019     0.194 0.147 0.234
+8  2020     0.183 0.146 0.227
+9  2021     0.177 0.143 0.215
+10 2022     0.197 0.157 0.238
+11 2023     0.202 0.159 0.249
+
+By SDI quintile and year (median rw):
+     sdi_quintile   1990   1995  2000  2005  2010  2015  2019  2020  2021  2022
+1         Low SDI 0.0979 0.0987 0.100 0.106 0.119 0.121 0.126 0.127 0.129 0.141
+2  Low-middle SDI 0.1265 0.1200 0.130 0.141 0.146 0.153 0.167 0.166 0.156 0.178
+3      Middle SDI 0.1418 0.1435 0.155 0.155 0.160 0.169 0.177 0.177 0.162 0.183
+4 High-middle SDI 0.1598 0.1653 0.180 0.192 0.198 0.205 0.213 0.199 0.188 0.209
+5        High SDI 0.1765 0.1840 0.194 0.204 0.218 0.232 0.237 0.233 0.227 0.243
+   2023
+1 0.143
+2 0.187
+3 0.190
+4 0.220
+5 0.252
+
+ratio rw(1990)/rw(2023): median 0.72  share >1: 0.01 
+Spearman ratio_1990_2023 ~ SDI: 0.053 
+rank stability: Spearman rw1990 ~ rw2023: 0.897 
+
+All-cause by measure and year (median rw, IQR):
+   measure_f year median_rw    q25    q75
+1     Deaths 1990    0.0434 0.0288 0.0586
+2     Deaths 2000    0.0435 0.0274 0.0597
+3     Deaths 2010    0.0407 0.0269 0.0618
+4     Deaths 2015    0.0422 0.0268 0.0617
+5     Deaths 2019    0.0430 0.0247 0.0655
+6     Deaths 2020    0.0435 0.0141 0.0706
+7     Deaths 2021    0.0491 0.0144 0.0829
+8     Deaths 2022    0.0652 0.0372 0.1000
+9     Deaths 2023    0.0813 0.0459 0.1123
+10      YLLs 1990    0.0371 0.0244 0.0541
+11      YLLs 2010    0.0357 0.0254 0.0548
+12      YLLs 2023    0.0691 0.0455 0.0924
+13      YLDs 1990    0.5285 0.5229 0.5357
+14      YLDs 2010    0.5279 0.5185 0.5380
+15      YLDs 2023    0.5348 0.5233 0.5469
+16     DALYs 1990    0.1510 0.1109 0.1763
+17     DALYs 1995    0.1529 0.1125 0.1864
+18     DALYs 2000    0.1608 0.1186 0.1966
+19     DALYs 2005    0.1687 0.1257 0.2053
+20     DALYs 2010    0.1795 0.1358 0.2164
+21     DALYs 2015    0.1857 0.1409 0.2301
+22     DALYs 2019    0.1938 0.1472 0.2337
+23     DALYs 2020    0.1832 0.1462 0.2274
+24     DALYs 2021    0.1767 0.1428 0.2154
+25     DALYs 2022    0.1966 0.1573 0.2384
+26     DALYs 2023    0.2017 0.1587 0.2494
+
+Deaths: median rw by super region and year:
+                                  super_region   1990   2000   2010   2015
+1                                  High income 0.0174 0.0175 0.0187 0.0176
+2 Central Europe, Eastern Europe, Central Asia 0.0333 0.0317 0.0298 0.0297
+3                  Latin America and Caribbean 0.0389 0.0410 0.0373 0.0363
+4                 North Africa and Middle East 0.0549 0.0451 0.0451 0.0482
+5                                   South Asia 0.0628 0.0692 0.0650 0.0699
+6           Southeast Asia, East Asia, Oceania 0.0395 0.0396 0.0387 0.0396
+7                           Sub-Saharan Africa 0.0573 0.0578 0.0603 0.0604
+    2019    2020    2021   2022   2023
+1 0.0172 0.00758 0.00819 0.0206 0.0244
+2 0.0261 0.01467 0.01508 0.0437 0.0580
+3 0.0391 0.04236 0.04733 0.0600 0.0743
+4 0.0502 0.04911 0.05186 0.0819 0.1238
+5 0.0792 0.08237 0.10142 0.1176 0.1334
+6 0.0426 0.04396 0.04912 0.0598 0.0744
+7 0.0645 0.06919 0.08300 0.0961 0.1060
+
+Deaths recency: ratio rw(2023)/rw(2019): median 1.69  IQR 1.52 1.85  share > 1: 1 
+Deaths recency: ratio rw(2023)/rw(2022): median 1.13 
+Deaths: ratio rw(2019)/rw(1990): median 1 
+Spearman ratio(2023/2019) ~ SDI: -0.085 
+Deaths 2023/2019 ratio by super region (median):
+                                  super_region med_ratio  n
+1                                  High income      1.32 36
+2 Central Europe, Eastern Europe, Central Asia      1.82 29
+3                  Latin America and Caribbean      1.80 33
+4                 North Africa and Middle East      1.96 21
+5                                   South Asia      1.66  5
+6           Southeast Asia, East Asia, Oceania      1.69 34
+7                           Sub-Saharan Africa      1.64 46
+DALYs recency: ratio rw(2023)/rw(2019): median 1.06 
+YLDs: rw 1990 median 0.529  2010 0.528  2023 0.535 ; IQR 2023 0.523 0.547 
+
+== 5. Admin1 all-cause DALYs 2023 versus national ==
+        country n_units med_rw min_rw max_rw  cv_rw max_over_min rho_rw_count
+1         kenya      47  0.188  0.156  0.213 0.0748         1.37       0.1159
+2      pakistan       7  0.209  0.178  0.224 0.0852         1.26      -0.6786
+3       nigeria      37  0.152  0.112  0.186 0.0963         1.65      -0.4339
+4   philippines      82  0.174  0.142  0.243 0.0918         1.71      -0.2334
+5         india      31  0.207  0.172  0.268 0.0957         1.56      -0.2226
+6      ethiopia      13  0.143  0.131  0.159 0.0591         1.22       0.4615
+7     indonesia      34  0.205  0.172  0.254 0.0850         1.47       0.1969
+8  south_africa       9  0.149  0.124  0.165 0.0992         1.33       0.6000
+9         italy      21  0.308  0.289  0.333 0.0381         1.15      -0.5052
+10       mexico      32  0.224  0.194  0.251 0.0643         1.29      -0.2291
+11       brazil      27  0.226  0.202  0.249 0.0484         1.23      -0.0287
+12        japan      47  0.306  0.287  0.342 0.0379         1.19      -0.1895
+13          usa      51  0.240  0.195  0.272 0.0780         1.40       0.0316
+14       poland      16  0.254  0.231  0.279 0.0482         1.21      -0.1118
+15       norway      11  0.307  0.294  0.321 0.0269         1.09       0.4727
+16           uk      12  0.283  0.269  0.316 0.0545         1.18       0.4615
+17         iran      31  0.252  0.206  0.289 0.0736         1.40       0.0944
+   nat_rw nat_point   sdi med_over_nat
+1   0.158     40687 0.549        1.191
+2   0.180     42063 0.513        1.158
+3   0.134     55005 0.512        1.132
+4   0.157     34148 0.669        1.114
+5   0.187     37287 0.607        1.105
+6   0.131     51870 0.394        1.092
+7   0.191     34319 0.666        1.076
+8   0.145     48833 0.696        1.028
+9   0.302     18675 0.834        1.020
+10  0.220     30773 0.693        1.018
+11  0.223     29816 0.684        1.013
+12  0.304     17541 0.876        1.007
+13  0.240     27768 0.876        1.003
+14  0.255     23697 0.847        0.997
+15  0.311     19051 0.917        0.988
+16  0.287     22495 0.880        0.987
+17  0.256     26026 0.718        0.984
+
+Pooled: median admin1 rw / national rw = 1.02 ; countries where every admin1 unit is wider than national: 0 of 17
+Spearman admin1 rw ~ DALY count (unit size), pooled within country (median rho): -0.03 
+Share of admin1 log rw variance between countries: 89.8 %
+
+Admin1 high SBP SEV 2023 (relative width):
+        country  n med_rw min_rw max_rw max_over_min
+1         japan 47  0.534  0.426  2.704         6.35
+2      ethiopia 13  1.420  0.481  1.758         3.65
+3  south_africa  9  0.719  0.332  0.996         3.00
+4        brazil 27  0.565  0.399  1.043         2.61
+5       nigeria 37  0.829  0.776  1.989         2.56
+6        poland 16  0.559  0.388  0.990         2.55
+7      pakistan  7  0.938  0.901  2.294         2.55
+8     indonesia 34  0.830  0.474  1.198         2.53
+9         italy 21  1.310  0.759  1.855         2.45
+10        india 31  0.449  0.306  0.740         2.42
+11           uk 12  1.010  0.455  1.096         2.41
+12       norway 11  0.869  0.848  1.921         2.27
+13         iran 31  1.097  0.632  1.329         2.10
+14          usa 51  0.469  0.346  0.678         1.96
+15       mexico 32  0.819  0.620  1.039         1.68
+16        kenya 47  1.169  0.929  1.446         1.56
+17  philippines 82  1.267  1.201  1.319         1.10
+
+Units with widest SEV intervals:
+    country    location_name point  lower upper   rw
+1     japan            Iwate 0.231 0.0491 0.674 2.70
+2     japan          Niigata 0.231 0.0542 0.604 2.38
+3  pakistan            Sindh 0.307 0.0822 0.786 2.29
+4     japan          Okinawa 0.266 0.0793 0.657 2.17
+5  pakistan Gilgit-Baltistan 0.277 0.0753 0.645 2.06
+6   nigeria           Sokoto 0.433 0.0984 0.959 1.99
+7    norway        Trøndelag 0.412 0.1023 0.894 1.92
+8    norway             Oslo 0.366 0.1129 0.803 1.89
+9   nigeria             Osun 0.426 0.1187 0.912 1.86
+10    italy          Sicilia 0.258 0.0897 0.569 1.85
+
+== 6. Risk exposure (SEV) and risk attributable DALYs, 2023 ==
+                              risk_name median_rw   q25   q75 rho_sdi rho_sev
+1                   Diet high in sodium     2.016 1.656 2.629 -0.1570  -0.957
+2                   Unsafe water source     1.135 0.897 1.280  0.7969  -0.860
+3          High systolic blood pressure     0.863 0.601 1.136  0.0681  -0.200
+4           High fasting plasma glucose     0.796 0.646 0.986  0.1712  -0.143
+5                               Smoking     0.540 0.402 0.717 -0.3712  -0.647
+6                  High LDL cholesterol     0.527 0.459 0.568 -0.7664  -0.857
+7                 Low physical activity     0.516 0.442 0.584 -0.3406  -0.898
+8  Ambient particulate matter pollution     0.508 0.438 0.768  0.3052  -0.720
+9                        Child stunting     0.370 0.323 0.397  0.8191  -0.892
+10                 High body-mass index     0.296 0.235 0.359 -0.2243  -0.587
+
+Risk attributable DALYs (rows with lower <= 0 excluded from rw summaries): 7 
+                                  risk_name   n median_rw   q25   q75 rho_sdi
+1 Unsafe water, sanitation, and handwashing 201     1.249 1.093 1.613   0.523
+2                             Dietary risks 200     1.048 0.925 1.147  -0.385
+3                      High body-mass index 204     0.987 0.901 1.084   0.350
+4                             Air pollution 204     0.477 0.408 0.713   0.751
+5                                   Tobacco 204     0.471 0.394 0.556  -0.299
+6              High systolic blood pressure 204     0.467 0.387 0.527  -0.345
+
+All-cause DALY rw for comparison (median): 0.202 
+
+SEV rw by super region, high systolic blood pressure:
+                                  super_region median_rw  n
+1                                  High income     0.965 36
+2 Central Europe, Eastern Europe, Central Asia     0.788 29
+3                  Latin America and Caribbean     0.798 33
+4                 North Africa and Middle East     0.857 21
+5                                   South Asia     0.487  5
+6           Southeast Asia, East Asia, Oceania     0.786 34
+7                           Sub-Saharan Africa     0.935 46
+
+== 7. Interval asymmetry (upper - point)/(point - lower), all-cause and cause level 2023 ==
+  measure_f median_asym   q25  q75 p_gt1
+1    Deaths        1.04 0.975 1.13 0.647
+2      YLLs        1.04 0.959 1.12 0.623
+3      YLDs        1.21 1.175 1.26 1.000
+4     DALYs        1.17 1.106 1.23 0.961
+  median_asym  q25  q75 p_gt1
+1        1.21 1.11 1.35 0.899
+Spearman asym ~ rw (cause level): 0.674 
+
+== 8. Scorecards ==
+
+ Ghana  all-cause DALY rw rank (1 = widest of 204): 147  rw = 0.166 
+                               cause_name point lower upper    rw
+1 Alzheimer's disease and other dementias   343   135   799 1.936
+2                                 Malaria  3035  1076  5807 1.559
+3                 Dietary iron deficiency   754   292  1443 1.526
+4                                COVID-19   294   146   582 1.484
+5                                HIV/AIDS  2291  1363  3507 0.936
+6              Hypertensive heart disease   581   327   867 0.930
+
+ Australia  all-cause DALY rw rank (1 = widest of 204): 4  rw = 0.32 
+                               cause_name point lower upper    rw
+1                 Dietary iron deficiency   127  51.3   316 2.086
+2 Alzheimer's disease and other dementias   451 219.8   874 1.451
+3                                COVID-19   148  81.5   266 1.244
+4                                  Asthma   539 347.2   767 0.778
+5                    Depressive disorders   717 492.2  1007 0.718
+6                  Gynecological diseases   313 210.5   429 0.699
+
+ Nigeria  all-cause DALY rw rank (1 = widest of 204): 178  rw = 0.134 
+                               cause_name point lower upper    rw
+1 Alzheimer's disease and other dementias   290   115   629 1.776
+2                                 Malaria  5399  1959  9938 1.478
+3                 Dietary iron deficiency   714   319  1323 1.405
+4                                COVID-19   252   134   459 1.291
+5                       Anxiety disorders   828   488  1365 1.059
+6                  Interpersonal violence   518   328   813 0.935
+figures written: fig1_allcause_rw_by_region_measure.png, fig1b_daly_rw_vs_yld_share.png, fig2_map_allcause_rw.png, fig3_rw_vs_sdi_population.png, fig4_heatmap_cause_country_rw.png, fig5_rw_time_allcause.png, fig6_admin1_vs_national_rw.png, fig7_risk_rw.png 

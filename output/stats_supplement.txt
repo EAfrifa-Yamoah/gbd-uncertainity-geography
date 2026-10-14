@@ -1,0 +1,26 @@
+== S1. Metric robustness ==
+deaths: Spearman rank(rw) ~ rank(lrw) = 1.000; rw ~ absolute width = 0.847; rw ~ SDI = -0.518; lrw ~ SDI = -0.518; abs ~ SDI = -0.761
+ylds: Spearman rank(rw) ~ rank(lrw) = 0.986; rw ~ absolute width = 0.282; rw ~ SDI = -0.177; lrw ~ SDI = -0.195; abs ~ SDI = -0.424
+dalys: Spearman rank(rw) ~ rank(lrw) = 1.000; rw ~ absolute width = -0.609; rw ~ SDI = 0.835; lrw ~ SDI = 0.836; abs ~ SDI = -0.656
+
+== S2. Independence test with separate arms ==
+upper arm: observed/independent median 0.992 (IQR 0.957 to 1.018), implied rho -0.072
+lower arm: observed/independent median 1.006 (IQR 0.989 to 1.044), implied rho 0.037
+
+== S3. GAM deviance explained ==
+  Measure  SDI Population Super region SDI + population
+1  DEATHS 31.9        4.4         38.5             40.8
+2    YLLS 29.3        4.4         35.8             37.9
+3    YLDS  4.6       15.0         13.1             21.3
+4   DALYS 70.4        0.1         71.1             72.6
+  SDI + population + region HAQ + population + region
+1                      53.8                      51.1
+2                      51.3                      48.3
+3                      27.5                      27.9
+4                      79.9                      86.2
+
+== Helper function test ==
+  rw_daly rw_yll rw_yld yld_share yld_var_share obs_over_indep rho_implied
+1   0.166 0.0923  0.559     0.237          0.78           1.11       0.267
+                                                                       note
+1 DALY interval mixes fatal and nonfatal uncertainty in comparable amounts.
